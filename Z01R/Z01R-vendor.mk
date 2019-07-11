@@ -280,7 +280,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/lib64/vendor.qti.hardware.radio.ims@1.3.so:system/lib64/vendor.qti.hardware.radio.ims@1.3.so \
     vendor/asus/Z01R/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/asus/Z01R/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/asus/Z01R/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so
+    vendor/asus/Z01R/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/asus/Z01R/proprietary/lib/libril-qc-hal-qmi.so:system/etc/vendor/lib/libril-qc-hal-qmi.so \
+    vendor/asus/Z01R/proprietary/lib64/libril-qc-hal-qmi.so:system/etc/vendor/lib64/libril-qc-hal-qmi.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -306,5 +308,4 @@ PRODUCT_PACKAGES += \
     xtra_t_app \
     WfdCommon \
     com.qti.location.sdk \
-    izat.xt.srv \
-    libril-qc-hal-qmi
+    izat.xt.srv
